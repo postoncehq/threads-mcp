@@ -1,0 +1,23 @@
+{
+  "name": "threads-mcp",
+  "version": "0.1.0",
+  "description": "Threads MCP server and skills: write, publish and schedule Threads posts with text, images, video and carousels through Threads' official API, via PostOnce.",
+  "author": {
+    "name": "PostOnce"
+  },
+  "homepage": "https://github.com/postoncehq/threads-mcp",
+  "skills": "./skills/",
+  "mcpServers": "./codex.mcp.json",
+  "interface": {
+    "displayName": "Threads MCP",
+    "shortDescription": "Write, publish and schedule Threads posts.",
+    "longDescription": "Post writing, crosspost rewriting, bio and content calendar skills, plus publishing and scheduling to your Threads profile through Threads' official API via PostOnce. Publishing goes through Threads' official API, via PostOnce.",
+    "developerName": "PostOnce",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "Rewrite my latest LinkedIn post for Threads and schedule it for 6pm today."
+  }
+}

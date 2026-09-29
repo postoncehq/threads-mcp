@@ -1,0 +1,23 @@
+{
+  "name": "threads-mcp",
+  "version": "0.1.0",
+  "description": "Threads MCP server and skills: write, publish and schedule Threads posts with text, images, video and carousels through Threads' official API, via PostOnce.",
+  "author": {
+    "name": "PostOnce"
+  },
+  "homepage": "https://github.com/postoncehq/threads-mcp",
+  "license": "MIT",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "POSTONCE_API_KEY": {
+        "type": "string",
+        "title": "PostOnce API key",
+        "description": "PostOnce API key. Create one in PostOnce preferences; never paste it into chat.",
+        "writeOnly": true
+      }
+    }
+  },
+  "skills": "./skills/",
+  "mcpServers": "./cursor.mcp.json"
+}

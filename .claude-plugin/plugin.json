@@ -1,0 +1,19 @@
+{
+  "name": "threads-mcp",
+  "version": "0.1.0",
+  "description": "Threads MCP server and skills: write, publish and schedule Threads posts with text, images, video and carousels through Threads' official API, via PostOnce.",
+  "author": {
+    "name": "PostOnce",
+    "url": "https://postonce.to"
+  },
+  "homepage": "https://github.com/postoncehq/threads-mcp",
+  "repository": "https://github.com/postoncehq/threads-mcp",
+  "license": "MIT",
+  "keywords": [
+    "threads",
+    "threads-mcp",
+    "mcp",
+    "social-media",
+    "postonce"
+  ]
+}
