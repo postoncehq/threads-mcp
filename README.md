@@ -14,6 +14,8 @@ Claude: Rewrote it with the threads-crosspost-adapter skill: 280 characters,
         on @maya.builds.
 ```
 
+Full setup guide with examples: [postonce.to/mcp/threads](https://postonce.to/mcp/threads)
+
 ## What you can do
 
 | Ask your agent to | How it works |
