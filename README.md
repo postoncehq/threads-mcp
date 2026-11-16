@@ -4,7 +4,7 @@
 
 Threads MCP server for Claude, ChatGPT, Cursor and Codex. Your AI agent can write, publish and schedule Threads posts with text, images, video or carousels on your Threads profile through Threads' official API. There's no scraping, no browser automation and no Threads developer app to set up.
 
-It runs on [PostOnce](https://postonce.to)'s hosted MCP server and comes with Threads skills, so your agent writes posts that sound like Threads, not a press release, before it posts one.
+It runs on [PostOnce](https://postonce.to?utm_source=github&utm_campaign=threads-mcp)'s hosted MCP server and comes with Threads skills, so your agent writes posts that sound like Threads, not a press release, before it posts one.
 
 ```
 You:    Rewrite my LinkedIn post from this morning for Threads and schedule it
@@ -14,7 +14,7 @@ Claude: Rewrote it with the threads-crosspost-adapter skill: 280 characters,
         on @maya.builds.
 ```
 
-Full setup guide with examples: [postonce.to/mcp/threads](https://postonce.to/mcp/threads)
+Full setup guide with examples: [postonce.to/mcp/threads](https://postonce.to/mcp/threads?utm_source=github&utm_campaign=threads-mcp)
 
 ## What you can do
 
@@ -35,7 +35,7 @@ Not supported: multi-post threads (reply chains), replies, polls, quote posts, t
 
 ## Setup (about a minute)
 
-You need a [PostOnce account](https://postonce.to) (free for 7 days, no card) with your Threads profile connected.
+You need a [PostOnce account](https://postonce.to?utm_source=github&utm_campaign=threads-mcp) (free for 7 days, no card) with your Threads profile connected.
 
 **Claude (claude.ai and desktop) and ChatGPT:** add a custom connector with the URL below and sign in with PostOnce. No API key.
 
@@ -43,7 +43,7 @@ You need a [PostOnce account](https://postonce.to) (free for 7 days, no card) wi
 https://postonce.to/mcp
 ```
 
-Step-by-step: [Claude](https://postonce.to/integrations/claude) · [ChatGPT](https://postonce.to/integrations/chatgpt)
+Step-by-step: [Claude](https://postonce.to/integrations/claude?utm_source=github&utm_campaign=threads-mcp) · [ChatGPT](https://postonce.to/integrations/chatgpt?utm_source=github&utm_campaign=threads-mcp)
 
 **Claude Code:** install the plugin. It adds the MCP connection and the skills together, and the first time it connects your browser opens to sign in with PostOnce. No API key.
 
@@ -57,7 +57,7 @@ claude plugin marketplace add postoncehq/plugins
 claude plugin install threads-mcp@postoncehq
 ```
 
-Step-by-step: [Claude Code](https://postonce.to/integrations/claude-code) · [Codex](https://postonce.to/integrations/codex) · [Cursor](https://postonce.to/integrations/cursor)
+Step-by-step: [Claude Code](https://postonce.to/integrations/claude-code?utm_source=github&utm_campaign=threads-mcp) · [Codex](https://postonce.to/integrations/codex?utm_source=github&utm_campaign=threads-mcp) · [Cursor](https://postonce.to/integrations/cursor?utm_source=github&utm_campaign=threads-mcp)
 
 **Any other MCP client:** point it at `https://postonce.to/mcp` (Streamable HTTP) and sign in with PostOnce when it asks. Clients without OAuth can send the header `Authorization: Bearer <your PostOnce API key>` instead (API keys are in [PostOnce preferences](https://postonce.to/dashboard/preferences) and need a paid plan).
 
@@ -89,7 +89,7 @@ No. Each post is published on its own; reply chains, replies and polls aren't su
 No. PostOnce holds the Threads API access; you just connect your profile.
 
 **Is it free?**
-The skills and this repo are free and MIT-licensed. Publishing runs through a PostOnce account, which you can try free for 7 days without entering a card. After that, see [pricing](https://postonce.to/pricing).
+The skills and this repo are free and MIT-licensed. Publishing runs through a PostOnce account, which you can try free for 7 days without entering a card. After that, see [pricing](https://postonce.to/pricing?utm_source=github&utm_campaign=threads-mcp).
 
 ## Data and privacy
 
